@@ -1,0 +1,12 @@
+#Avence 2
+
+1. A la fecha he obtenido los datos del NCBI para mi análisis, no usaré todos los datos porque no tengo la capicidad computacional para
+analizar todo, así que solo elegiré algunos datos
+
+2. Revisé el articulo en el cual fueron publicados los resultados del análisis para tener una idea más clara de que fue lo que se realizó.
+
+3. Ya que es un ensamble *de novo* el programa que utilizaré para hacerlo es Trinity, por lo tanto he realizado el RNA-seq tutorial de GriffitsLab en github
+https://github.com/griffithlab/rnaseq_tutorial/wiki/Trinity-Assembly-And-Analysis
+
+4.Para realizar el preporcesamiento utilizaré FASTQ, entonces he leído el manual
+
