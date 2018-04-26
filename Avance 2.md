@@ -71,32 +71,32 @@ http://manpages.org/trimmomaticpe
 Descargue la imange de docker de fastQC
 
 
-``` docker pull bioicontainers/fastqc ```
+```docker pull bioicontainers/fastqc```
 
 monté el volumen de una carpeta llamada fasqc en mis documentos
 
-``` docker run -v/home/isa/Documents/Docker/FastQC:/FastQC -it          
-biocontainers/fastqc bin/bash ```
+```docker run -v/home/isa/Documents/Docker/FastQC:/FastQC -it          
+biocontainers/fastqc bin/bash```
 
 para ver si se habia instalado mi volumen
 
-``` ls ``` 
+```ls``` 
 
 Para entrar al directorio fastqc 
 
-``` cd fastqc ```
+```cd fastqc```
 
 Para ver que hay en fastqc
 
-``` ls ``` 
+```ls``` 
 
 Para entrar al directorio machos donde se encuentran las secuencias
 
-``` cd manchos ``` 
+```cd manchos``` 
  
  hacer un list
 
-``` ls ```
+```ls```
 
 SRR6958534_1.fastq  SRR6958534_2.fastq
 
@@ -113,13 +113,13 @@ Baje la imagen de trimmomatic en docker con
 https://hub.docker.com/r/comics/trimmomatic/
 
 
-``` docker pull comics/trimmomatic ```
+```docker pull comics/trimmomatic```
 
 monté el volumen
 
-``` docker run -v/home/isa/Documents/Docker/FastQC:/trimmomatic 
+```docker run -v/home/isa/Documents/Docker/FastQC:/trimmomatic 
 -it          
-comics/trimmomatic:0:36 bash ```
+comics/trimmomatic:0:36 bash```
 
 
 
@@ -134,9 +134,9 @@ los parametros elegidos fueron:
 
 Intenté hacer el análisis pero hasta hoy no lo he logrado
 
-``` PE [-version] [-threads <threads>] [-phred33|-phred64] [-trimlog <trimLogFile>] [-quiet] [-validatePairs] [-basein <inputBase> | <inputFile1> <inputFile2>] [-baseout <outputBase> | <outputFile1P> <outputFile1U> <outputFile2P> <outputFile2U>] <trimmer1>...```
+```PE [-version] [-threads <threads>] [-phred33|-phred64] [-trimlog <trimLogFile>] [-quiet] [-validatePairs] [-basein <inputBase> | <inputFile1> <inputFile2>] [-baseout <outputBase> | <outputFile1P> <outputFile1U> <outputFile2P> <outputFile2U>] <trimmer1>...```
 
-``` java -jar $TRIMMOMATIC PE -phred33 -trimlog trimlog.txt -quiet -validatePairs -basein SRR6958534_1.fastq SRR6958534_2.fastq pmachos1 pmachos2 SLIDINGWINDOW4:28 HEADCROP:10 MINLEN:10```
+```java -jar $TRIMMOMATIC PE -phred33 -trimlog trimlog.txt -quiet -validatePairs -basein SRR6958534_1.fastq SRR6958534_2.fastq pmachos1 pmachos2 SLIDINGWINDOW4:28 HEADCROP:10 MINLEN:10```
 
 Pero me indica que algo está mal
 
