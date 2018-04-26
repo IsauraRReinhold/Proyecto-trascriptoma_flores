@@ -75,10 +75,10 @@ Descargue la imange de docker de fastQC
 
 monté el volumen de una carpeta llamada fasqc en mis documentos
 
-```docker run -v/home/isa/Documents/Docker/FastQC:/FastQC -it          
+```docker run -v/home/isa/Documents/Docker/FastQC:/FastQC -it          
 biocontainers/fastqc bin/bash```
 
-para ver si se habia instalado mi volumen
+ para ver si se habia instalado mi volumen
 
 ```ls``` 
 
@@ -100,9 +100,11 @@ Para entrar al directorio machos donde se encuentran las secuencias
 
 SRR6958534_1.fastq  SRR6958534_2.fastq
 
-fastqc SRR6958534_1.fastqc
+correr el análisis primero con las secuencias _1 y después con _2
 
-Obtuve un archivo html dónde pude visualizar la calidad de mis secuencias descargadas.
+```fastqc SRR6958534_1.fastqc```
+
+Obtuve dos archivos html dónde pude visualizar la calidad de mis secuencias descargadas.
 
 A partir de lo observado decidí correr trimmomatic usando docker.
 
@@ -134,9 +136,9 @@ los parametros elegidos fueron:
 
 Intenté hacer el análisis pero hasta hoy no lo he logrado
 
-```PE [-version] [-threads <threads>] [-phred33|-phred64] [-trimlog <trimLogFile>] [-quiet] [-validatePairs] [-basein <inputBase> | <inputFile1> <inputFile2>] [-baseout <outputBase> | <outputFile1P> <outputFile1U> <outputFile2P> <outputFile2U>] <trimmer1>...```
+PE [-version] [-threads <threads>] [-phred33|-phred64] [-trimlog <trimLogFile>] [-quiet] [-validatePairs] [-basein <inputBase> | <inputFile1> <inputFile2>] [-baseout <outputBase> | <outputFile1P> <outputFile1U> <outputFile2P> <outputFile2U>] <trimmer1>...
 
-```java -jar $TRIMMOMATIC PE -phred33 -trimlog trimlog.txt -quiet -validatePairs -basein SRR6958534_1.fastq SRR6958534_2.fastq pmachos1 pmachos2 SLIDINGWINDOW4:28 HEADCROP:10 MINLEN:10```
+java -jar $TRIMMOMATIC PE -phred33 -trimlog trimlog.txt -quiet -validatePairs -basein SRR6958534_1.fastq SRR6958534_2.fastq pmachos1 pmachos2 SLIDINGWINDOW4:28 HEADCROP:10 MINLEN:10
 
 Pero me indica que algo está mal
 
