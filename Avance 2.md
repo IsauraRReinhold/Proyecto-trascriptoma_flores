@@ -75,22 +75,24 @@ Descargue la imange de docker de fastQC
 
 monté el volumen de una carpeta llamada fasqc en mis documentos
 
-```docker run -v/home/isa/Documents/Docker/FastQC:/FastQC -it          
-biocontainers/fastqc bin/bash```
+``` docker run -v/home/isa/Documents/Docker/FastQC:/FastQC -it          
+biocontainers/fastqc bin/bash ```
 
-```ls``` para ver si se habia instalado mi volumen
 
-```cd fastqc``` para entrar al directorio fastqc
 
-```ls``` para ver que hay en fastqc
+``` ls ``` para ver si se habia instalado mi volumen
 
-```cd manchos``` para entrar al directorio machos donde se encuentran las secuencias
+``` cd fastqc ``` para entrar al directorio fastqc
 
-```ls```
+``` ls ``` para ver que hay en fastqc
+
+``` cd manchos ``` para entrar al directorio machos donde se encuentran las secuencias
+
+``` ls ```
 
 SRR6958534_1.fastq  SRR6958534_2.fastq
 
-fastqc SRR6958534_1.fastqc```
+fastqc SRR6958534_1.fastqc ```
 
 Obtuve un archivo html dónde pude visualizar la calidad de mis secuencias descargadas.
 
@@ -103,13 +105,13 @@ Baje la imagen de trimmomatic en docker con
 https://hub.docker.com/r/comics/trimmomatic/
 
 
-```docker pull comics/trimmomatic```
+``` docker pull comics/trimmomatic ```
 
 monté el volumen
 
-```docker run -v/home/isa/Documents/Docker/FastQC:/trimmomatic 
+``` docker run -v/home/isa/Documents/Docker/FastQC:/trimmomatic 
 -it          
-comics/trimmomatic:0:36 bash```
+comics/trimmomatic:0:36 bash ```
 
 
 
