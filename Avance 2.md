@@ -1,4 +1,4 @@
-#Avance 2
+# Avance 2
 
 descargar las secuencias de datos crudos del NCBI en una carpeta especifica para el proyecto
 
@@ -40,9 +40,9 @@ Codigos de accesión fueron SRR6958534 (Male flowers) y SRR6958535 (female flowe
 
 corte las secuencias descargadas con los comandos -X 1000 para solo análizar 1000 debido a la capacidad computacional con la que cuento.
 
-#Pre-procesamiento
+# Pre-procesamiento
 
-##++FastQC++
+## ++FastQC++
 
 
 Descargué FastQC 
@@ -60,7 +60,7 @@ el comando para descargar la secuencias completas es
 
 con este comando si  logré descargar las secuencias pero el ++fastQC++ no funcionó, entoces lo intenté desde docker.
 
-##Docker
+## ++Docker++
 
 http://www.usadellab.org/cms/?page=trimmomatic
 
