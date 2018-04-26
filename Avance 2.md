@@ -42,7 +42,7 @@ corte las secuencias descargadas con los comandos -X 1000 para solo análizar 10
 
 # Pre-procesamiento
 
-## ++FastQC++
+## FastQC
 
 
 Descargué FastQC 
@@ -60,7 +60,7 @@ el comando para descargar la secuencias completas es
 
 con este comando si  logré descargar las secuencias pero el ++fastQC++ no funcionó, entoces lo intenté desde docker.
 
-## ++Docker++
+## Docker
 
 http://www.usadellab.org/cms/?page=trimmomatic
 
