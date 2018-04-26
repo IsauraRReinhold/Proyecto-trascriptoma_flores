@@ -78,21 +78,29 @@ monté el volumen de una carpeta llamada fasqc en mis documentos
 ``` docker run -v/home/isa/Documents/Docker/FastQC:/FastQC -it          
 biocontainers/fastqc bin/bash ```
 
+para ver si se habia instalado mi volumen
 
+``` ls ``` 
 
-``` ls ``` para ver si se habia instalado mi volumen
+Para entrar al directorio fastqc 
 
-``` cd fastqc ``` para entrar al directorio fastqc
+``` cd fastqc ```
 
-``` ls ``` para ver que hay en fastqc
+Para ver que hay en fastqc
 
-``` cd manchos ``` para entrar al directorio machos donde se encuentran las secuencias
+``` ls ``` 
+
+Para entrar al directorio machos donde se encuentran las secuencias
+
+``` cd manchos ``` 
+ 
+ hacer un list
 
 ``` ls ```
 
 SRR6958534_1.fastq  SRR6958534_2.fastq
 
-fastqc SRR6958534_1.fastqc ```
+fastqc SRR6958534_1.fastqc
 
 Obtuve un archivo html dónde pude visualizar la calidad de mis secuencias descargadas.
 
