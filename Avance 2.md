@@ -1,5 +1,7 @@
 # Avance 2
 
+Isaura Rosas-Reinhold
+
 descargar las secuencias de datos crudos del NCBI en una carpeta especifica para el proyecto
 
 Primero fue necesario instalar toolKit usando los siguientes comandos y así poder descargar los datos crudos del NCBI
