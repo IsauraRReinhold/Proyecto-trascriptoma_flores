@@ -19,6 +19,8 @@ Otro repo interesante sobre README https://github.com/noffle/art-of-readme
 
 Este es más corto pero igual bueno https://robots.thoughtbot.com/how-to-write-a-great-readme
 
+Aquí un poco más de info http://jfhbrook.github.io/2011/11/09/readmes.html
+
 
 ## Trimmomatic
 
