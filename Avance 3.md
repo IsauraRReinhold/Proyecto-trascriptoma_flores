@@ -59,12 +59,12 @@ En uno de los videos Haas menciona que se puede accesar a la supercomputadora de
 
 Ingresé a la página y no logré encontrar dónde registrarme para poder hacer uso y hacer el ensamble, se supone que cualquiera puede tener acceso.
 
-##Acceso al cluster del Instituto de Biología
+## Acceso al cluster del Instituto de Biología
 
 Realicé el trámite para poder accesar al servidor del instituto de biología
 
 
-##Ensamble de novo
+## Ensamble de novo
 
 comandos para realizar el ensamble *de novo*
 
