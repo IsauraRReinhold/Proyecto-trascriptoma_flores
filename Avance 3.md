@@ -9,7 +9,7 @@ Cuando empecé a generar los datos observé que la manera en que yo estaba organ
 
 Hice un script para organizar toda mi información como recomienda Vince Buffalo
 
-##README
+## README
 
 Para escribir el README consulté varias fuentes pues aún no me quedaba muy claro que debe contener, algunos solo tienen una linea y otros son más largos, así que revisé lo siguiente:
 
