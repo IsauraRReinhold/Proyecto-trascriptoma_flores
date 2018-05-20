@@ -1,6 +1,7 @@
-#Discusión y conclusiones
+# Discusión y conclusiones
 
-![Ideasia policarpa](https://i.ebayimg.com/images/g/V-QAAOxy~iJQ-6wZ/s-l1600.jpg) *Ideasia policarpa*
+![Ideasia policarpa](https://i.ebayimg.com/images/g/V-QAAOxy~iJQ-6wZ/s-l1600.jpg) 
+*Ideasia policarpa*
  
 Ideasia polycarpa es una especie de importancia económica debido a su potencial para la extracción de biocombustibles, esta especie es bisexual, pero solo se puede reconocer si es hembra o macho hasta que florece. Por ess, es importante encontrar un método que permita reconocer el sexo de estas plantas sin tener que esperar a que sean adultas, ya que sólo de las hembras se pueden obtener los frutos de los que se extraen los aceites (Mei et al. 2017)
  
