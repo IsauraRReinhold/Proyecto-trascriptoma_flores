@@ -1,6 +1,6 @@
 
-#Transcriptoma de *Idesia polycarpa*
-##Resumen
+# Transcriptoma de *Idesia polycarpa*
+## Resumen
 
 ![Ideasia policarpa](https://i.ebayimg.com/images/g/V-QAAOxy~iJQ-6wZ/s-l1600.jpg) 
 
