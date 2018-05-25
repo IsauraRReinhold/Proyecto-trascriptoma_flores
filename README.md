@@ -1,6 +1,4 @@
 
- [TOC]
-
 # Flower Transcriptome of *Idesia polycarpa*
 
 
@@ -90,7 +88,7 @@ In the directory Scripts you will find all the scripts generated to make the ana
 1. Descargar datos crudos.sh Script to download the raw data
 2. fastqc.sh   Script to run fastqc
 3. trimmomatic.sh Script to make the data clean
-4. Trnity.sh  Script to make the data assembly
+4. Trnity.sh  Script to make the data assembly using Docker
 5. Mapa Idesia.R Script to make the Idesia map distribution
 6. Gráfica de barras.R Script to make the bar plot of the percent and presence of Idesia in the world
 
