@@ -106,7 +106,7 @@ El desarrollo de este trabajo fue muy importante porque me hizo darme cuenta que
 Aunque no logré obtener todo lo que hubiera querido para presentar en el proyecto aprendí mucho, es necesario dedicar tiempo a revisar manuales, blogs, artículos para poder aprender el uso de los programas de manera correcta, su instalación y requerimentos computacionales.
 
 
-Otro de los temas que me pareció más interesante durante el desarrollo del trabajo fue la reproducibilidad, el aprender a escribir todo, a documentar cada paso es sumamente relevante, primero para que nosotros podamos repetir nuestros experimetos pero también para dar certeza de que ellos se realizaron de la manera más correcta y por lo tanto podamos validar nuestros resultados.
+Otro de los temas que me pareció más interesante durante el desarrollo del trabajo fue la reproducibilidad, el aprender a escribir todo, a documentar cada paso es sumamente relevante, primero para que nosotros podamos repetir nuestros experimetos pero también para dar certeza de que ellos se realizaron de la manera más correcta y por lo tanto podamos validar nuestros resultados
 
 
 
